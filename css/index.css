@@ -1,0 +1,117 @@
+/*Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.nav_header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav_header > a, button{
+  margin: 10px;
+}
+
+.sign-in:active {
+  color: white;
+  font-weight: 700;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+.sign-in:focus,
+.sign-in:visited {
+  color: white;
+}
+
+img {
+  display: flex;
+  width: 40vw;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+input[type=text]{
+  display: flex;
+  width: 30vw;
+  margin: 0.5rem auto;
+  height: 5vh;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+}
+
+.label{
+  display: flex;
+  position: relative;
+}
+
+.search{
+  position: absolute;
+  margin-left: 42rem;
+  margin-top: 1rem;
+}
+.mic{
+  position: absolute;
+  margin-right: 42rem;
+  margin-top: 1rem;
+}
+
+
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  width: 15vw;
+}
+
+button{
+  padding: 5px;
+}
+
+.languages {
+  display: flex;
+  margin: 0.2rem auto;
+  width: 30vw;
+  padding-left: 5rem;
+}
+.languages > a{
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.footer {
+ margin-top: 17rem;
+  margin-bottom: 1rem;
+}
+
+.second-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.second-footer> ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.left-second-footer{
+  width: 20vw;
+}
+
+.right-second-footer{
+  width: 12vw;
+}
+
+
+
+
